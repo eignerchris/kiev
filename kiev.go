@@ -30,7 +30,7 @@ func main() {
     }
     defer l.Close()
     fmt.Println("Kiev started on " + CONN_HOST + ":" + CONN_PORT)
-    
+
     // Listen for an incoming connection.
     for {
         conn, err := l.Accept()
