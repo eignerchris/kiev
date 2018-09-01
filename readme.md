@@ -1,7 +1,8 @@
 # Kiev
 
 An in memory key/value document store built to learn go.
-Users a space delimited TCP protocol "CMD KEY [VALUE]" 
+
+Uses a space delimited TCP protocol "CMD KEY [VALUE]"
 
 
 ## Usage
